@@ -18,7 +18,7 @@ style.scss
     └── _gallery.scss
 
 
-##共通変数
+## 共通変数
 
 $base-fontsize //ベースフォントサイズを設定
 $fontfamily //フォントファミリーを設定
