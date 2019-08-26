@@ -24,6 +24,8 @@ $letter-spacing: 1px;
   justify-content: center;
   align-items: center;
   border: 1px solid #332211;
+  // box-shadow: 2px #180f07;
+  border-radius: 5px;
 
   &--right{
     width: 400px;
@@ -42,12 +44,17 @@ $letter-spacing: 1px;
     margin-left: 10%;
     border-bottom: 1px solid #332211;
 
-    span {
+    .youtubelink {
       font-size: 10px;
       padding-left: 10px;
+      cursor: pointer;
 
       a{
         text-decoration: none;
+
+        .fas{
+          padding-right: 3px;
+          }
         }
       }
     }
@@ -58,5 +65,33 @@ $letter-spacing: 1px;
     margin: 30px 15% 0;
     line-height: 1.4;
     letter-spacing: $letter-spacing;
+  }
+}
+
+@media screen and (max-width: 800px) {
+  .item{
+    width: 80%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: auto;
+
+    img{
+    display: block;
+    margin: 20px 0 20px;
+    }
+
+    .discription{
+      margin-bottom: 30px;
+    }
+
+    .title {
+    width: 80%;
+    font-size: 14px;
+    text-align: center;
+    line-height: 20px;
+    border-bottom: 1px solid #332211;
+    }
   }
 }
