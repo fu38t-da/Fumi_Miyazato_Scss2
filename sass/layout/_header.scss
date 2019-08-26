@@ -18,6 +18,40 @@
   }
   &__nav ul li{
     display: inline;
-    margin-right: 10px;
+    margin-right: 20px;
   }
+}
+
+@media screen and (max-width: 800px){
+.header {
+  height: 120px;
+  background:$base-bgcolor;
+  display: flex;
+  flex-direction: column;
+  // justify-content: space-between;
+  font-family: 'Kosugi Maru', sans-serif;
+  text-align: center;
+
+  &__logo {
+    margin-top: 20px;
+    font-size: $base-fontsize * 2.5;
+    font-family: 'Pacifico', cursive;
+    margin-right: auto;
+    margin-left: auto;
+  }
+
+  &__nav {
+    margin-top: 30px;
+    margin-bottom: 30px;
+    margin-right: auto;
+    margin-left: auto;
+  }
+  &__nav ul li{
+    display: inline;
+    margin-right: 20px;
+  }
+  &__nav ul li:last-child {
+    margin-right: 0;
+}
+}
 }

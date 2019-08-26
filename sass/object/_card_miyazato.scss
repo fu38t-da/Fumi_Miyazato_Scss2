@@ -52,3 +52,32 @@
   }
 
 }
+
+@media screen and (max-width: 800px){
+  .flex {
+  display: flex;
+  flex-direction: column;
+  }
+  .card {
+  margin: 50px auto;
+
+
+    &__btn{
+    display: inline-block;
+    padding: 1em 1em;
+    text-decoration: none;
+    background: #627295;/*ボタン色*/
+    color: #FFF;
+    border-bottom: solid 4px #668ad8;
+    border-radius: 3px;
+    // display: block;
+    // margin-right: auto;
+    // margin-left: auto;
+    width: 40%;
+    text-align: center;
+    position: absolute;
+    top: 83%;
+    left: 25%;
+  }
+}
+}
