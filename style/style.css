@@ -100,4 +100,88 @@ hr {
 input, select {
   vertical-align: middle;
 }
+
+.map-container {
+  width: 100%;
+  height: 100vh;
+  text-align: center;
+  margin-top: 30px;
+}
+
+.map-container .subtitle {
+  margin-top: 30px;
+  font-size: 20px;
+  background-color: #7de4f1;
+  height: 80px;
+  line-height: 80px;
+}
+
+.map-container .map {
+  margin-top: 30px;
+}
+
+.contents-container {
+  margin-top: 30px;
+}
+
+.subtitle {
+  margin-top: 30px;
+  font-size: 20px;
+  text-align: center;
+  background-color: #7de4f1;
+  height: 80px;
+  line-height: 80px;
+  letter-spacing: 1px;
+}
+
+.item {
+  width: 95%;
+  margin: 30px auto 0;
+  height: 300px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  border: 1px solid #332211;
+}
+
+.item--right {
+  width: 400px;
+}
+
+.item img {
+  display: inline-block;
+  margin-left: 10%;
+}
+
+.item .title {
+  width: 80%;
+  font-size: 20px;
+  line-height: 35px;
+  padding: 0 0 10px;
+  margin-left: 10%;
+  border-bottom: 1px solid #332211;
+}
+
+.item .title span {
+  font-size: 10px;
+  padding-left: 10px;
+}
+
+.item .title span a {
+  text-decoration: none;
+}
+
+.item .discription {
+  font-size: 12px;
+  overflow: scroll;
+  margin: 30px 15% 0;
+  line-height: 1.4;
+  letter-spacing: 1px;
+}
 /*# sourceMappingURL=style.css.map */

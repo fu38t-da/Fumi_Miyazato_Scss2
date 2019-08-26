@@ -1,0 +1,62 @@
+@import '../object/variables';
+
+$letter-spacing: 1px;
+
+.contents-container {
+  margin-top: $mt-contents;
+}
+
+.subtitle{
+    margin-top: $mt-contents;
+    font-size: 20px;
+    text-align: center;
+    background-color: $base-bgcolor;
+    height: 80px;
+    line-height: 80px;
+    letter-spacing: $letter-spacing;
+}
+
+.item{
+  width: 95%;
+  margin: 30px auto 0;
+  height: 300px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 1px solid #332211;
+
+  &--right{
+    width: 400px;
+  }
+
+  img {
+    display: inline-block;
+    margin-left: 10%;
+  }
+
+  .title {
+    width: 80%;
+    font-size: 20px;
+    line-height: 35px;
+    padding: 0 0 10px;
+    margin-left: 10%;
+    border-bottom: 1px solid #332211;
+
+    span {
+      font-size: 10px;
+      padding-left: 10px;
+
+      a{
+        text-decoration: none;
+        }
+      }
+    }
+
+  .discription {
+    font-size: 12px;
+    overflow: scroll;
+    margin: 30px 15% 0;
+    line-height: 1.4;
+    letter-spacing: $letter-spacing;
+  }
+}
